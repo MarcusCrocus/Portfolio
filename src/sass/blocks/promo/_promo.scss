@@ -1,0 +1,34 @@
+.promo {
+    min-height: 100vh;
+    position: relative;
+    background: url(../img/main_bg.jpg) center 50%/cover;
+    padding-top: 230px;
+    &__wrapper {
+        width: 420px;
+    }
+    &__subtitle {
+        position: relative;
+       
+        @include before_circle;
+        z-index: 2; 
+    }
+    &__title {
+        margin-top: 10px;
+    }
+    &__btns {
+        margin-top: 25px;
+        display: flex;
+        width: 250px;
+
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__link {
+        color: $text-color;
+        font-weight: 700;
+        &:hover {
+            color: $text-color;
+            text-decoration: none;
+        }
+    } 
+}
