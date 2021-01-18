@@ -20,7 +20,7 @@
     &__descr {
         padding-top: 6px;
         .divider {
-            margin-top: 4px;
+            margin: 0;
         }
     }
     &__title {
@@ -39,12 +39,18 @@
         line-height: 21px;
     }
     &__skills {
+        margin: 15px;
         display: grid;
         grid-template: repeat(2, 1fr) / repeat(2, 1fr);
         grid-auto-rows: 1fr;
-        column-gap: 50px;
+        column-gap: 88px;
         row-gap: 20px;
-        &-item {
+        &-item {    
+            width: 100%;
+            max-width: 550px;
+            margin: 10px auto;
+            padding: 1em;
+            box-shadow: 0 10px 4px rgba(0,0,0,.3), -38px 0 20px -23px rgba(0,0,0,.8), 41px 0 20px -23px rgba(0,0,0,.8), 0 0 40px rgba(0,0,0,.1) inset;
             display: grid;
             grid-template-columns: 40px 200px;
             column-gap: 20px;
@@ -54,9 +60,11 @@
             position: relative;
             @include before_circle2;
             z-index: 2;
-            &:before {
+            &::before {
                 top: 3px;
                 left: -35%;
+                background: rgb(109, 100, 194);
+                
             }
         }
         &-text {

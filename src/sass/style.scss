@@ -15,7 +15,7 @@
     margin: 0 auto;
 }
 .divider {
-    margin-top: 25px;
+    margin: 25px auto 0 auto;
     width: 60px;
     height: 3px;
     background-color: $main-color;
@@ -34,3 +34,5 @@
 
 
 @import 'blocks/about-me/about-me.scss';
+
+@import 'blocks/resume/resume';
