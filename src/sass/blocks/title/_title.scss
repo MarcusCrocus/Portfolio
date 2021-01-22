@@ -21,9 +21,25 @@
     &_fz48 {
         font-size: 48px;
     }
+    &__section-title {
+        position: relative;
+        text-align: center;
+        @include before_circle2;
+        &:before {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    &__section-subtitle{
+        text-align: center;
+    }
 }
 .about {
     &__title {
+        position: relative;
+        @include before_circle2;
+        padding: 1px 0 0 12px;
+        z-index: 2;
         color:$main-color;
         text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     }
@@ -32,3 +48,20 @@
         text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     }
 }
+.resume {
+    &__title {
+        position: relative;
+        text-align: center;
+        z-index: 2;
+        @include before_circle2;
+        &::before {
+            top: -5px;
+            left: 45%;
+            
+        }
+    }
+    &__subtitle {
+        text-align: center;
+    }
+}
+

@@ -1,20 +1,6 @@
 .resume {
     padding-top: 120px;
     background: url(../img/man-1292269_1920.jpg)center 50% / cover;
-    &__title {
-        position: relative;
-        text-align: center;
-        z-index: 2;
-        @include before_circle2;
-        &::before {
-            top: -5px;
-            left: 45%;
-            
-        }
-    }
-    &__subtitle {
-        text-align: center;
-    }
     &__wrapper{
         padding: 60px 65px 65px;
         display: grid;
