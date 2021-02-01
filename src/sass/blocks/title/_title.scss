@@ -20,6 +20,7 @@
     }
     &_fz48 {
         font-size: 48px;
+        -webkit-text-stroke: 1px black;
     }
     &__section-title {
         position: relative;
@@ -32,6 +33,7 @@
     }
     &__section-subtitle{
         text-align: center;
+        margin-left: 10px;
     }
 }
 .about {

@@ -1,19 +1,17 @@
 .promo {
     min-height: 100vh;
     position: relative;
-    background: url(../img/main_bg.jpg) center 50%/cover;
+    background: url('../img/main_bg.jpg') no-repeat 1%/cover;
     padding-top: 230px;
-    &__wrapper {
-        width: 420px;
-    }
     &__subtitle {
         position: relative;
-       
         @include before_circle;
-        z-index: 2; 
+        z-index: 2;
+        margin-left: 16px;
     }
     &__title {
         margin-top: 10px;
+        width: 400px;
     }
     &__btns {
         margin-top: 25px;
@@ -26,6 +24,7 @@
     &__link {
         color: $text-color;
         font-weight: 700;
+        -webkit-text-stroke: 1px white;
         &:hover {
             color: $text-color;
             text-decoration: none;
