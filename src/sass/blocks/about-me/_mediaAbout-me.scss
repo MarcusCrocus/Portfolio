@@ -4,7 +4,6 @@
     }
     .about {
         &__wrapper {
-            justify-content: center;
             grid-template-columns: 400px 525px;
             column-gap: 70px;
         }
@@ -24,8 +23,9 @@
     }
     .about {
         &__wrapper {
-            justify-content: center;
             grid-template-columns: 369px 520px;
+            gap: 60px;
+            
         }
         &__skills {
             &-circle{
@@ -83,8 +83,7 @@
             
         }
         &__wrapper {
-            justify-content: center;
-            grid-template: 390px auto auto / 445px;
+            grid-template: 465px auto auto / 500px;
             grid-auto-rows: auto;
         }
     }
@@ -92,14 +91,17 @@
 }
 @media (max-width: 576px) {
     .container {
-        width: 280px;
+        width: 300px;
     }
     .about {
         &__wrapper {
-            grid-template: 340px auto auto / 300px;
+            grid-template: 340px auto auto / 255px;
         }
         &__skills {
             grid-template-columns: 1fr;
+            &-item {
+                grid-template-columns: 38px 169px
+            }
         }
     }
 }

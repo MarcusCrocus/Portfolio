@@ -5,19 +5,28 @@
     .container {
         max-width: 960px;
     }
+
+}
+@media (max-width: 1200px) {
     .sidepanel {
         display: none;
     }
-}
-@media (max-width: 1200px) {
     .promo {
         background: url('../img/main_bg.jpg') no-repeat 35%/cover;
     }     
     .container {
         max-width: 960px;
+        margin-right: 29px;
+        margin-left: 42px;
+    }
+    .about {
+        &__wrapper {
+            column-gap: 30px;
+        }
     }
 }
 @media (max-width: 992px) {
+
     .promo {
         background: url('../img/main_bg.jpg') no-repeat 24%/cover;
     }
@@ -47,7 +56,7 @@
 }
 @media (max-width: 576px) {
     .container {
-        width: 280px;
+        max-width: 280px;
         padding: 0 10px;
     }
     .title {
