@@ -35,8 +35,10 @@
     }
     .resume {
         &__wrapper {
+            
             grid-template-columns: repeat(1, 523px);
         }
+
     }
 }
 @media (max-width: 576px) {
@@ -53,6 +55,9 @@
         }
         &__wrapper {
             grid-template-columns: repeat(1,253px);
+        }
+        &__subtitle {
+            font-size: 22px;
         }
         
     }
