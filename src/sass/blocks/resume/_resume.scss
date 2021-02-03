@@ -2,10 +2,11 @@
     padding-top: 120px;
     background: url(../img/man-1292269_1920.jpg)center 50% / cover;
     &__wrapper{
-        padding-top: 60px;
+        padding: 60px 0 60px;
         display: grid;
-        grid-template-columns: repeat(2, 425px);
-        column-gap: 135px;
+        grid-template-columns: repeat(2, 452px);
+        column-gap: 97px;
+        justify-content: center;
     }
     &__column {
         &-title {

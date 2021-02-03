@@ -1,8 +1,7 @@
 .skills {
     padding-top: 120px;   
     &__items {
-        margin-top: 60px;
-        padding: 0 10px;
+        padding-top: 60px;
         display: grid;
         grid-template: repeat(2, minmax(270px, auto)) / repeat(3, 270px);
         grid-auto-rows: minmax(270px, auto);
@@ -44,11 +43,11 @@
         }
     }
         &__ratings {
-        margin-top: 120px;
-        display: grid;
-        grid-template: repeat(2, minmax(70px, auto)) / repeat(3, 350px);
-        column-gap: 45px;
-        row-gap: 35px;
+            margin: 120px 40px 0;
+            display: grid;
+            grid-template: repeat(2, minmax(70px, auto)) / repeat(3, 300px);
+            column-gap: 45px;
+            row-gap: 35px;
         &-item {
             display: grid;
             grid-template: minmax(21px, auto) 14px / 200px 35px;
@@ -68,7 +67,7 @@
             line-height: 21px;
         }
         &-line {
-            width: 350px;
+            width: 300px;
             height: 14px;
             background-color: #E8E4DE;
             border-radius: 4px;

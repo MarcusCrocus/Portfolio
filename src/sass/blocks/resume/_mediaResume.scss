@@ -1,16 +1,17 @@
 @media (max-width: 1200px) {
     .container{
-        width: 960px;
+        max-width: 960px;
     }
     .resume {
         &__wrapper {
+            justify-content: center;
             column-gap: 60px;
         }
     }  
 }
 @media (max-width: 992px) {
     .container{
-        width: 720px;
+        max-width: 720px;
     }
     .resume {
         &__title{
@@ -30,7 +31,7 @@
 }
 @media (max-width: 768px) {
     .container{
-        width: 540px;
+        max-width: 540px;
     }
     .resume {
         &__wrapper {
@@ -39,15 +40,12 @@
     }
 }
 @media (max-width: 576px) {
-    .container{
-        max-width: 300px;;
+    .container {
+        max-width: 100%;
+        padding: 0 10px;
     }
     .resume {
-        &__title {
-            &::before {
-                left: 35%;
-            }
-        }
+
         &__item {
             &-body {
                 padding-left: 0px;

@@ -1,6 +1,9 @@
 @media (max-width: 1430px) {
     .promo {
         background: url('../img/main_bg.jpg') no-repeat 2%/cover;
+        &__wrapper {
+            
+        }
     }     
     .container {
         max-width: 960px;
@@ -56,7 +59,7 @@
 }
 @media (max-width: 576px) {
     .container {
-        max-width: 280px;
+        max-width: 100%;
         padding: 0 10px;
     }
     .title {
@@ -76,11 +79,12 @@
     .promo {
         background: url('../img/main_bg.jpg') no-repeat 34%/cover;
         &__btns {
-            
             margin-top: 30px;
         }
         &__title {
             width: 80%;
         }
+
+
     }
 }

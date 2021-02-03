@@ -4,6 +4,7 @@
     }
     .about {
         &__wrapper {
+            justify-content: center;
             grid-template-columns: 400px 525px;
             column-gap: 70px;
         }
@@ -19,7 +20,7 @@
 }
 @media (max-width: 1200px) {
     .container {
-        width: 960px;
+        max-width: 960px;
     }
     .about {
         &__wrapper {
@@ -42,7 +43,6 @@
 }
 @media (max-width: 992px) {
     .container {
-
         max-width: 720px;
     }
     .about {
@@ -83,7 +83,8 @@
             
         }
         &__wrapper {
-            grid-template: 465px auto auto / 500px;
+            justify-content: center;
+            grid-template: 465px auto auto / 570px;
             grid-auto-rows: auto;
         }
     }
@@ -91,11 +92,13 @@
 }
 @media (max-width: 576px) {
     .container {
-        width: 300px;
+        max-width: 100%;
+        padding: 0 10px;
     }
     .about {
         &__wrapper {
-            grid-template: 340px auto auto / 255px;
+            justify-content: center;
+            grid-template: 340px auto auto / 291px;
         }
         &__skills {
             grid-template-columns: 1fr;

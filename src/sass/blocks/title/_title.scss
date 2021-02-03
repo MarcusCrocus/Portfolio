@@ -27,6 +27,7 @@
         text-align: center;
         @include before_circle2;
         &:before {
+            top: -3px;
             left: 50%;
             transform: translateX(-50%);
         }
