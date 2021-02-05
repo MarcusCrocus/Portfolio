@@ -87,12 +87,12 @@
 
             <nav>
                 <ul class="menu__list">
-                    <li class="menu__link"><a href="#">about me</a></li>
-                    <li class="menu__link"><a href="#">my experience</a></li>
-                    <li class="menu__link"><a href="#">my skills</a></li>
-                    <li class="menu__link"><a href="#">MY projects</a></li>
-                    <li class="menu__link"><a href="#">PRICE LIST</a></li>
-                    <li class="menu__link"><a href="#">contacts</a></li>
+                    <li class="menu__link"><a href="#aboutme">about me</a></li>
+                    <li class="menu__link"><a href="#experience">my experience</a></li>
+                    <li class="menu__link"><a href="#skills">my skills</a></li>
+                    <li class="menu__link"><a href="#projects">MY projects</a></li>
+                    <li class="menu__link"><a href="#price">PRICE LIST</a></li>
+                    <li class="menu__link"><a href="#contacts">contacts</a></li>
                 </ul>
             </nav>
 
@@ -118,30 +118,31 @@
         <div class="menu__overlay"></div>
     </div>
 
-    <section class="promo">
+ <section class="promo">
         <div class="hamburger">
             <span></span>
             <span class="hamburger__long"></span>
             <span></span>
         </div>
+        
         <div class="container">
             <div class="promo__wrapper">
                 <div class="title title_fz16 promo__subtitle">
-                    My Name is Somename
+                    My Name is Marcus
                 </div>
                 <h1 class="title title_fz48 promo__title">
                     I’m a Front-End Developer
                 </h1>
-
+    
                 <div class="promo__btns">
-                    <a href="#" class=" btns promo__link">Portfolio</a>
-                    <a href="#" class=" promo__link">About Me</a>
-                </div>
+                    <a href="/Artem_Zelenskyy.pdf" download class=" btns promo__link">Portfolio</a>
+                    <a href="#aboutme" class=" promo__link">About Me</a>
+                </div> 
             </div>
         </div>  
-    </section>
+    </section> 
 
-    <section class="about">
+<section class="about" id="aboutme">
         <div class="container">
             <div class="about__wrapper">
                 <div class="about__photo about__hide">
@@ -152,7 +153,7 @@
                         About Me
                     </h2>
                     <div class="title title_fz36 about__subtitle">
-                        My Name Is Somename
+                        My Name Is Marcus
                     </div>
 
                     <div class="divider"></div>
@@ -218,8 +219,7 @@
             </div>
         </div>
     </section>
-
-    <section class="resume">
+<section class="resume" id="experience">
         <div class="container">
             <h2 class="title title_fz16 resume__title">
                 Experience
@@ -304,8 +304,7 @@
             </div>
         </div>
     </section>
-
-<section class="skills">
+<section class="skills" id="skills">
         <div class="container">
             <h2 class="title title_fz16 title__section-title">
                 Skills
@@ -414,7 +413,7 @@
         </div>
     </section>
 
-    <section class="portfolio">
+<section class="portfolio" id="projects">
         <div class="container">
             <h2 class="title title_fz16 title__section-title">
                 Portfolio
@@ -447,7 +446,7 @@
         </div>
     </section>
 
-    <section class="pricelist">
+<section class="pricelist" id="price">
         <div class="container">
             <h2 class="title title_fz16 title__section-title">
                 Pricelist
@@ -530,7 +529,7 @@
         </div>
     </section>
     
-    <section class="contacts">
+    <section class="contacts" id="contacts">
         <div class="container">
             <div class="contacts__wrapper">
                 <div class="contacts__photo"><img src="img/main_photo.jpg" alt="photo"></div>

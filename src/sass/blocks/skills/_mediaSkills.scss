@@ -31,13 +31,11 @@
     }
     .skills {
         &__ratings {
-            grid-template-columns: repeat(auto-fit, 320px);
+            grid-template-columns: repeat(auto-fit,295px);
             justify-content: space-between;
             padding: 0;
             column-gap: 0;
-            &-line {
-                width: 100%;
-            }
+
         }
     }
 
