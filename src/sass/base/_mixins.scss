@@ -25,3 +25,17 @@
         left: -2px;
     }
 }
+/* @mixin botton {
+    &::before {
+    content: '';
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        border-radius: 100%;
+        background: $main-color;
+        z-index: -1;
+        top: 2px;
+        left: -2px;
+    }
+    
+} */
